@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#Project--- Pizza
+
+pizza_list=()
+pizza_sizes=(Small Media Large Extra-Large)
+Pizza_toppings=(Cheese Veggie Sausage Pepperoni Mushrooms)
+
+function order_pizza
+{
+while true; do
+echo "What size pizza would you like to order?:"
+read -p "< ${pizza_sizes[*]} > `echo $'\n>'`" pizza_size
+echo "$pizza_size"
+
+
