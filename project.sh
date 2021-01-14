@@ -1,7 +1,7 @@
 #! /bin/bash
 
 ## Team name : AWSome Quartet
-##   Limit input error upto 3 times
+##   Limit input error up to 3 times
 
 clear
 
@@ -11,8 +11,11 @@ echo "
 echo "******************************************************************************************"
 echo "*                                                                                        *"
 echo "*     Today’s special  : Large Cheese pizza  : $9.99 !!!                                 *"
-echo "*                                                                                        *"
+echo "
+echo "
 echo "******************************************************************************************"
+print (Fore.MAGENTA, 'Large Cheese Pizza'")
+
 ### Take customer’s name and phone number
 # Variable : CustomerName, PhoneNo
 function NameNPhone () {
