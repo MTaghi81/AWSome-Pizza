@@ -157,7 +157,7 @@ read -p "         <<< What would you like to order?  select [ 1 - 5 ]  :   " Ord
 
 case $Order_Menu in
      1) echo "--------------------------------------------------------------------------------------------"
-#        reap -p  "   Awesome!! Would you like to order Pizza?    Y or N"  M_order 
+#        read -p  "   Awesome!! Would you like to order Pizza?    Y or N"  M_order 
 #        confirmYN ??? or modified?
 #
        Order_Pizza ()
@@ -218,27 +218,27 @@ function Order_Pizza () {
         # M_Check=0
         ;;
             2) echo "--------------------------------------------------------------------------------------------
-        reap -p  "   Awesome!! Would you like to order Sides?    Y or N"  M_order 
+        read -p  "   Awesome!! Would you like to order Sides?    Y or N"  M_order 
 
         Order_Sides()
  
         # M_Check=0
         ;;
             3) echo "--------------------------------------------------------------------------------------------
-        reap -p  "   Awesome!! Would you like to order Dessert?    Y or N"  M_order 
+        read -p  "   Awesome!! Would you like to order Dessert?    Y or N"  M_order 
 
  
         # M_Check=0
         ;;
             4) echo "--------------------------------------------------------------------------------------------
-        reap -p  "   Awesome!! Would you like to order Drinks?    Y or N"  M_order 
+        read -p  "   Awesome!! Would you like to order Drinks?    Y or N"  M_order 
 
  
         # M_Check=0
         ;;
   
              5) echo "--------------------------------------------------------------------------------------------
-        reap -p  "   Awesome!! Would you like to order Extra?    Y or N"  M_order 
+        read -p  "   Awesome!! Would you like to order Extra?    Y or N"  M_order 
 
  
         # M_Check=0
