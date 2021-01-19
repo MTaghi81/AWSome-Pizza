@@ -487,7 +487,7 @@ function Print_Receipt () {
          echo " Your order will be ready at "`date -d '20 minutes' '+ %H : %M'`"."
      elif (( T_order == 2 )) ; then
          echo " Your order will be delivered at "`date -d '40 minutes' '+ %H : %M'`"."
-     
+     fi
 }
 #--------------End of Function--------------------
 
