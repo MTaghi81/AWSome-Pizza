@@ -108,7 +108,7 @@ case $T_order in
          if (( S_order == 2 )) ; then
               echo ""
               echo ""
-              echo "  Your order will be delivered in 45 minutes w/ $3.99 delivery fee      " 
+              echo "  Your order will be delivered in 45 minutes w/ "`echo -e "$"`"3.99 delivery fee      "  
               echo "                                                                        "
               echo "  Change to delivery ?"
               echo ""
@@ -132,7 +132,7 @@ case $T_order in
 
       *) echo "------------------------------------------------------------------------"
          echo "                                                                        "
-         echo "  Your order will be delivered in 45 minutes w/ $3.99 delivery fee      " 
+         echo "  Your order will be delivered in 45 minutes w/ "`echo -e "$"`"3.99 delivery fee      "  
          echo "                                                                        "
          echo "                   Would you like to order ?                               "
          echo ""
